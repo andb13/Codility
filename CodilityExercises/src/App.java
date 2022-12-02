@@ -10,12 +10,15 @@ public class App {
         System.out.println(BinaryGap.solution(102)+"\n");
         System.out.println(BinaryGap.solution(13)+"\n");*/
             //Array Rotation run
-        int[] A = {3, 8, 9, 7, 6};
+        /*int[] A = {3, 8, 9, 7, 6};
         ArrayRotation.solution(A, 3);
         //Print numbers
         int length = A.length;
         for(int j=0; j<length; j++){
             System.out.println(A[j]);
-        }
+        }*/
+            //Non Occur Number
+        int[] A = {9, 3, 9, 3, 9, 7, 9};
+        System.out.println(OddOccurrences.solution(A));
     }
 }
