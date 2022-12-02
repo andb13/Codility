@@ -1,5 +1,8 @@
 public class ArrayRotation {
     public static int[] solution(int[] A, int K){
+        if(A.length < 1)
+            return A;
+        
         for(int i = 0; i < K; i++){
            rotateArrayByOne(A);
         }
