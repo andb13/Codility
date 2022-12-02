@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Task1 {
+public class BinaryGap {
     public static int solution(int num){
         String binaryNum = Integer.toBinaryString(num);
         int maxCont = 0;
