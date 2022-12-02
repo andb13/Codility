@@ -18,7 +18,12 @@ public class App {
             System.out.println(A[j]);
         }*/
             //Non Occur Number
-        int[] A = {9, 3, 9, 3, 9, 7, 9};
-        System.out.println(OddOccurrences.solution(A));
+        /*int[] A = {9, 3, 9, 3, 9, 7, 9};
+        System.out.println(OddOccurrences.solution(A));*/
+            //Frog jumps
+        int x = 10;
+        int y = 85;
+        int d = 30;
+        System.out.println(FrogJump.solution(x,y,d));
     }
 }

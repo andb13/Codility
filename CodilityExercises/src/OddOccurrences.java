@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class OddOccurrences {
     public static int solution(int[] A) {
