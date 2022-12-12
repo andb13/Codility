@@ -4,7 +4,6 @@ public class ElementCounters {
         
         int[] counters = new int[N];
         int maxCounter = 0;
-        int lastResetCounter = 0;
 
         for(int i=0; i<A.length; i++){
             if(A[i] <= N) {
