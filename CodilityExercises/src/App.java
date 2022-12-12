@@ -21,9 +21,15 @@ public class App {
         /*int[] A = {9, 3, 9, 3, 9, 7, 9};
         System.out.println(OddOccurrences.solution(A));*/
             //Frog jumps
-        int x = 10;
+        /*int x = 10;
         int y = 85;
         int d = 30;
-        System.out.println(FrogJump.solution(x,y,d));
+        System.out.println(FrogJump.solution(x,y,d));*/
+            //MaxCounters
+        int[] A = {3,4,4,6,1,4,4};
+        int[] solucion = ElementCounters.solution(5,A);
+        for (int i : solucion) {
+            System.out.println(i);
+        }
     }
 }
