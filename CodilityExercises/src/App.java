@@ -26,8 +26,11 @@ public class App {
         int d = 30;
         System.out.println(FrogJump.solution(x,y,d));*/
             //PermMissingElem
-        int[] A = {2,3,1,5};
-        System.out.println(MissingElement.solution(A));
+        /*int[] A = {2,3,1,5};
+        System.out.println(MissingElement.solution(A));*/
+            //TapeEquilibrium
+        int[] A = {3,1,2,4,3};
+        System.out.println(TapeEquilibrium.solution(A));
             //MaxCounters
         /*int[] A = {3,4,4,6,1,4,4};
         int[] solucion = ElementCounters.solution(5,A);
