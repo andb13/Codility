@@ -1,11 +1,10 @@
 import java.util.Arrays;
-
 public class TapeEquilibrium {
     
     public static int solution(int[] A){
-        int[] differences = new int[A.length];
+        int[] differences = new int[A.length-1];
 
-        for(int i=0;i<A.length;i++){
+        for(int i=0;i<A.length-1;i++){
             differences[i] = calculateDifference(i+1, A);
         }
 

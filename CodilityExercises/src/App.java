@@ -29,7 +29,8 @@ public class App {
         /*int[] A = {2,3,1,5};
         System.out.println(MissingElement.solution(A));*/
             //TapeEquilibrium
-        int[] A = {3,1,2,4,3};
+        //int[] A = {3,1,2,4,3};
+        int[] A = {-1000,1000};
         System.out.println(TapeEquilibrium.solution(A));
             //MaxCounters
         /*int[] A = {3,4,4,6,1,4,4};
