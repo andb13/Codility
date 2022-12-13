@@ -29,14 +29,14 @@ public class App {
         /*int[] A = {2,3,1,5};
         System.out.println(MissingElement.solution(A));*/
             //TapeEquilibrium
-        //int[] A = {3,1,2,4,3};
-        int[] A = {-1000,1000};
-        System.out.println(TapeEquilibrium.solution(A));
+        /*int[] A = {3,1,2,4,3};
+        System.out.println(TapeEquilibrium.solution(A));*/
             //MaxCounters
-        /*int[] A = {3,4,4,6,1,4,4};
-        int[] solucion = ElementCounters.solution(5,A);
+        int[] A = {1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,4};
+        int[] solucion = ElementCounters.solution(2,A);
+        System.out.println("Solucion:");
         for (int i : solucion) {
             System.out.println(i);
-        }*/
+        }
     }
 }

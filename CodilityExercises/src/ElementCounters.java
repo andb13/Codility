@@ -8,9 +8,12 @@ public class ElementCounters {
         for(int i=0; i<A.length; i++){
             if(A[i] <= N) {
                 counters[A[i] - 1]++;
-                maxCounter = counters[A[i]-1];
+                if(!(counters[A[i]-1]<=maxCounter-2)){
+                    maxCounter = counters[A[i]-1];
+                }
+                //System.out.println("maxCounter:"+maxCounter);
             }
-            else{
+            else{ 
                 setCountersToMax(maxCounter, counters);
             }
         }
@@ -21,7 +24,7 @@ public class ElementCounters {
 
     private static int[] setCountersToMax(int maxCounter, int[] counters){
         for(int i = 0; i<counters.length; i++ ){
-            counters[i]=maxCounter;
+            counters[i] = maxCounter;
         }
         return counters;
     }
