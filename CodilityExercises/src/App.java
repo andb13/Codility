@@ -32,9 +32,12 @@ public class App {
         /*int[] A = {3,1,2,4,3};
         System.out.println(TapeEquilibrium.solution(A));*/
             //FrogRiverOne
-        //int[] A = {1,3,1,4,2,3,5,4};
+        /*int[] A = {1,3,1,4,2,3,5,4};
         int[] A = {1,2,3,5,3,1};
-        System.out.println(FrogRiverOne.solution(5, A));
+        System.out.println(FrogRiverOne.solution(5, A));*/
+            //PermCheck
+        int[] A = {4,1,3};
+        System.out.println(PermutationCheck.solution(A));
             //MaxCounters
         /*int[] A = {1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,4};
         int[] solucion = ElementCounters.solution(2,A);
