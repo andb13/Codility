@@ -11,7 +11,6 @@ public class ElementCounters {
                 if(!(counters[A[i]-1]<=maxCounter-2)){
                     maxCounter = counters[A[i]-1];
                 }
-                //System.out.println("maxCounter:"+maxCounter);
             }
             else{ 
                 setCountersToMax(maxCounter, counters);
