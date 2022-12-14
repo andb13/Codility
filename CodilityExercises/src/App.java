@@ -50,7 +50,9 @@ public class App {
         int[] A = {1,3,6,4,1,2};
         System.out.println(MissingInteger.solution(A));*/
             //PassingCars
-        int[] A = {0,1,0,1,1};
-        System.out.println(PassingCars.solution(A));
+        /*int[] A = {0,1,0,1,1};
+        System.out.println(PassingCars.solution(A));*/
+            //CountDiv
+        System.out.println(CountDiv.solution(0, 0, 11));
     }
 }
