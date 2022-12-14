@@ -46,8 +46,11 @@ public class App {
             System.out.println(i);
         }*/
             //MissingInteger
-        //int[] A = {1,2,3};
+        /*int[] A = {1,2,3};
         int[] A = {1,3,6,4,1,2};
-        System.out.println(MissingInteger.solution(A));
+        System.out.println(MissingInteger.solution(A));*/
+            //PassingCars
+        int[] A = {0,1,0,1,1};
+        System.out.println(PassingCars.solution(A));
     }
 }
