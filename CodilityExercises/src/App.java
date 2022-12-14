@@ -36,8 +36,8 @@ public class App {
         int[] A = {1,2,3,5,3,1};
         System.out.println(FrogRiverOne.solution(5, A));*/
             //PermCheck
-        int[] A = {4,1,3};
-        System.out.println(PermutationCheck.solution(A));
+        /*int[] A = {4,1,3};
+        System.out.println(PermutationCheck.solution(A));*/
             //MaxCounters
         /*int[] A = {1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,4};
         int[] solucion = ElementCounters.solution(2,A);
@@ -45,5 +45,9 @@ public class App {
         for (int i : solucion) {
             System.out.println(i);
         }*/
+            //MissingInteger
+        //int[] A = {1,2,3};
+        int[] A = {1,3,6,4,1,2};
+        System.out.println(MissingInteger.solution(A));
     }
 }
