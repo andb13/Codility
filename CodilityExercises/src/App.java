@@ -55,11 +55,14 @@ public class App {
             //CountDiv
         //System.out.println(CountDiv.solution(0, 0, 11));
             //GenomicRangeQuery
-        int[] P = {2,5,0};
+        /*int[] P = {2,5,0};
         int[] Q = {4,5,6};
         int[] solucion = GenomicRangeQuery.solution("CAGCCTA", P, Q);
         for (int i : solucion) {
             System.out.println(i);
-        }
+        }*/
+            //MinAvgTwoSlice
+        int[] A = {-3,-5,-8,-4,-10};
+        System.out.println(MinAvgTwoSlice.solution(A));
     }
 }
