@@ -62,7 +62,10 @@ public class App {
             System.out.println(i);
         }*/
             //MinAvgTwoSlice
-        int[] A = {-3,-5,-8,-4,-10};
-        System.out.println(MinAvgTwoSlice.solution(A));
+        /*int[] A = {-3,-5,-8,-4,-10};
+        System.out.println(MinAvgTwoSlice.solution(A));*/
+            //Distinct
+        int[] A = {2,1,1,2,3,1};
+        System.out.println(Distinct.solution(A));
     }
 }
