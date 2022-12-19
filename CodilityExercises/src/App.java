@@ -65,7 +65,11 @@ public class App {
         /*int[] A = {-3,-5,-8,-4,-10};
         System.out.println(MinAvgTwoSlice.solution(A));*/
             //Distinct
-        int[] A = {2,1,1,2,3,1};
-        System.out.println(Distinct.solution(A));
+        /*int[] A = {2,1,1,2,3,1};
+        System.out.println(Distinct.solution(A));*/
+            //MaxProductOfThree
+        int[] A = {-3,1,2,-2,5,6};
+        //int[] A = {-10,-2,-4};
+        System.out.println(MaxProductOfThree.solution(A));
     }
 }
