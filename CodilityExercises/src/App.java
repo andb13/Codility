@@ -68,8 +68,11 @@ public class App {
         /*int[] A = {2,1,1,2,3,1};
         System.out.println(Distinct.solution(A));*/
             //MaxProductOfThree
-        int[] A = {-3,1,2,-2,5,6};
-        //int[] A = {-10,-2,-4};
-        System.out.println(MaxProductOfThree.solution(A));
+        /*int[] A = {-3,1,2,-2,5,6};
+        int[] A = {-10,-2,-4};
+        System.out.println(MaxProductOfThree.solution(A));*/
+            //Triangle
+        int[] A = {10, 2, 5, 1, 8, 20};
+        System.out.println(Triangle.solution(A));
     }
 }
